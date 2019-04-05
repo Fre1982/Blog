@@ -26,6 +26,7 @@
           <tbody>
 
               <?= var_dump($posts); ?>
+
               </tbody>
           </table>
           <br>
