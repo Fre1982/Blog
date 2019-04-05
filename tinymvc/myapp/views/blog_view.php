@@ -25,7 +25,7 @@
           </thead>
           <tbody>
 
-              <?= var_dump($result); ?>
+              <?= var_dump($posts); ?>
               </tbody>
           </table>
           <br>
