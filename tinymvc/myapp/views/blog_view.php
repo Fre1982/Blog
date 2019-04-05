@@ -18,14 +18,15 @@
 
         <div class="lg-2 offset-5 text-center">
 
-          <table><thead>
-            <th scope="row"><?php echo "Post titel"; ?></th>
-            <th scope="row"><?php echo "Eigenaar"; ?></th>
-            <th scope="row"><?php echo "Datum"; ?></th>
-          </thead>
-          <tbody>
+          <table>
+            <thead>
+              <th scope="row"><?php echo "Post titel"; ?></th>
+              <th scope="row"><?php echo "Eigenaar"; ?></th>
+              <th scope="row"><?php echo "Datum"; ?></th>
+            </thead>
+            <tbody>
 
-              <?= var_dump($result); ?>
+              <?php var_dump($posts); ?>
               </tbody>
           </table>
           <br>

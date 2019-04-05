@@ -13,10 +13,12 @@ class Default_Controller extends TinyMVC_Controller
 {
   function index()
   {
-    $this->load->model('Post_Model','post');
-    $result = $this->post->getAllPosts();
+    $this->load->model('Post_Model','Post');
+    $result["posts"] = $this->Post->getAllPosts();
 
-    $this->view->display('blog_view',$result);
+
+
+    $this->view->display('blog_view', $result);
   }
 }
 
